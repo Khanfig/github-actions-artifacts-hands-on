@@ -29,3 +29,5 @@ jobs:
           path: ./artifacts
       - name: cat file
         run: cat ./artifacts/hello.txt
+      - name: List files
+        run: ls -la ./artifacts
